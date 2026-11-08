@@ -1,0 +1,14 @@
+Librerías Estándar y Científicas
+ - pandas: Para la manipulación, limpieza y análisis de los datos estructurados.
+ - numpy: Para soporte matemático y operaciones vectorizadas.
+Visualización de Datos
+ - matplotlib: Para la generación de gráficos estáticos esenciales (líneas, ejes duales, etc.).
+ - seaborn: Para gráficos estadísticos avanzados y mapas de calor (heatmap).
+ - plotly: Para la creación de gráficos interactivos dinámicos (plotly.express y plotly.graph_objects).
+Acceso a APIs y Datos Externos
+ - pandas_datareader: Necesaria para conectar y descargar los indicadores macroeconómicos y demográficos directamente desde la API del Banco Mundial.
+Módulos Estándar de Python
+ - os: Para la verificación de rutas y archivos locales (Drive/Directorio).
+ - urllib: Para el manejo y control de excepciones de red al consumir APIs externas.
+ - difflib: Utilizado para realizar el emparejamiento difuso (Fuzzy Matching) de los nombres de los países entre las bases de datos de la OMS y el Banco Mundial.
+
