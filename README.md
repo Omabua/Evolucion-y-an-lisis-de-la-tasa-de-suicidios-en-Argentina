@@ -36,12 +36,14 @@ El análisis de correlación de Pearson ($r$) evidenció que las fluctuaciones d
 ---
 
 ## 📂 Estructura del Repositorio
-* `Buamden - Proyecto b.ipynb`: Notebook de Jupyter/Colab con el pipeline completo (ETL, Limpieza, EDA, Visualización y Análisis).
+* `notebooks/
+  * `Buamden - Proyecto b.ipynb`: Notebook de Jupyter/Colab con el pipeline completo (ETL, Limpieza, EDA, Visualización y Análisis).
 * `data/` *(Generados en el Notebook)*:
   * `suicidios_limpio_oms.csv`: Dataset de salud mental depurado de variables constantes.
   * `argentina_macroeconomia_suicidios.csv`: Dataset integrado listo para análisis macroeconómicos.
   * `comparativa_anual_ponderada.csv` & `comparativa_edades_2021.csv`: Archivos preparados para fácil importación en **Power BI** o **Tableau**.
-
+* `dashboard/
+  * `Proyecto final Power BI` : Tablero interactivo con conclusiones.
 ---
 
 ## 🚀 Cómo Ejecutar el Proyecto
