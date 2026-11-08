@@ -61,3 +61,9 @@ Abre y ejecuta el archivo .ipynb en tu entorno local de Jupyter o súbelo a Goog
 📈 Fuentes de Datos
 Organización Mundial de la Salud (OMS): [redacted link]
 Banco Mundial: Indicadores de Población (SP.POP.TOTL), PIB per Cápita (NY.GDP.PCAP.CD) y Desempleo (SL.UEM.TOTL.ZS).
+
+## Licencia y autoría
+
+© 2026 - Proyecto académico realizado por Omar Buamden 
+
+Licencia: Creative Commons Attribution 4.0 
