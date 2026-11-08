@@ -54,7 +54,7 @@ El análisis de correlación de Pearson ($r$) evidenció que las fluctuaciones d
 ## 🚀 Cómo Ejecutar el Proyecto
 1. Clonar este repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/nombre-del-repositorio.git
+   git clone https://github.com/Omabua/Evolucion-y-an-lisis-de-la-tasa-de-suicidios-en-Argentina.git
 Instala las dependencias necesarias:
 pip install pandas numpy matplotlib seaborn plotly pandas_datareader
 Abre y ejecuta el archivo .ipynb en tu entorno local de Jupyter o súbelo a Google Colab.
