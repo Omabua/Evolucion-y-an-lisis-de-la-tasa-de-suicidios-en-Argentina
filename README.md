@@ -23,15 +23,19 @@ El estudio utiliza datos oficiales de la **Organización Mundial de la Salud (OM
 
 ## 📌 Principales Hallazgos y Conclusiones
 
-### 1. Robustez en la Comparación Internacional (Anomalía Demográfica)
-Al ponderar las tasas globales por la población real de cada país para construir un **Promedio Mundial Ponderado**, se ratificó una **anomalía demográfica crítica en Argentina**:
+### 1. Anomalía Demográfica en la tasa de suicidios en Argentina
 * **Tendencia Global:** A nivel mundial, la tasa de suicidios se incrementa exponencialmente con la edad, teniendo su pico en la población de más de 70 años.
-* **Caso Argentino:** En Argentina, la problemática se concentra críticamente en los **jóvenes de 20 a 29 años** y adolescentes de **10 a 19 años**, superando las medias y medianas de referencia global para esos rangos.
+* **Caso Argentino:** En Argentina, la problemática se concentra críticamente en los **jóvenes de 20 a 29 años** y adolescentes de **10 a 19 años**, superando las medias y medianas de referencia global para esos rangos. Particularmente, el grupo de 20 a 29 años es el que tiene la tasa de suicidios más alta en Argentina.
+<img width="1280" height="720" alt="Argentina vs mundo" src="https://github.com/user-attachments/assets/e47625a0-c106-44ad-98d6-93e99d17fd03" />
+
 
 ### 2. Co-movimiento Macroeconómico (Determinantes Sociales)
 El análisis de correlación de Pearson ($r$) evidenció que las fluctuaciones de la tasa de suicidio en Argentina están fuertemente ligadas a los ciclos de estabilidad socioeconómica:
 * **Desempleo:** Se halló una **fuerte correlación positiva ($r = 0.63$)** con la tasa de desocupación. El pico histórico de suicidios coincide exactamente con el colapso de la crisis de 2001-2002.
 * **PIB Per Cápita:** Se demostró una **correlación negativa ($r = -0.27$)**, lo que indica que la contracción del nivel de actividad actúa como un factor de vulnerabilidad social.
+<img width="962" height="536" alt="image" src="https://github.com/user-attachments/assets/66c26f6a-07f1-41c4-95e6-c20a623bdc72" />
+
+
 
 ---
 
@@ -39,6 +43,7 @@ El análisis de correlación de Pearson ($r$) evidenció que las fluctuaciones d
 * `notebooks/
   * `Buamden - Proyecto b.ipynb`: Notebook de Jupyter/Colab con el pipeline completo (ETL, Limpieza, EDA, Visualización y Análisis).
 * `data/` *(Generados en el Notebook)*:
+  * `RELAY_WHS.csv`: Dataset original de la Organización Mundial de la Salud, accesible en: 🔗https://tinyurl.com/3yvecetr
   * `suicidios_limpio_oms.csv`: Dataset de salud mental depurado de variables constantes.
   * `argentina_macroeconomia_suicidios.csv`: Dataset integrado listo para análisis macroeconómicos.
   * `comparativa_anual_ponderada.csv` & `comparativa_edades_2021.csv`: Archivos preparados para fácil importación en **Power BI** o **Tableau**.
