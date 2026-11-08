@@ -47,7 +47,7 @@ El análisis de correlación de Pearson ($r$) evidenció que las fluctuaciones d
 ---
 
 ## 🚀 Cómo Ejecutar el Proyecto
-1. Clona este repositorio:
+1. Clonar este repositorio:
    ```bash
    git clone https://github.com/tu-usuario/nombre-del-repositorio.git
 Instala las dependencias necesarias:
